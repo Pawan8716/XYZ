@@ -1,0 +1,983 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>ImageVista</title>
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css"
+      integrity="sha512-iecdLmaskl7CVkqkXNQ/ZH/XLlvWZOJyj7Yy7tcenmpD1ypASozpmT/E0iPtmFIB46ZmdtAc9eNBvH0H/ZpiBw=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+    <link rel="stylesheet" href="imagenav.css" />
+  </head>
+  <body>
+    <!-- the header of vistaimage -->
+    <header>
+      <nav class="VistaHeaderNavBar1">
+        <div class="vistaNavBar_containt">
+          <!-- vistaLogo -->
+          <div class="vista_logo_home">
+            <div class="vistaLogo logoBorderHover">
+              <li></li>
+            </div>
+
+            <div class="vistaHome BorderHover">
+              <div class="vistaHomeicon">
+                <i class="fa-solid fa-house home"></i>
+                <p class="home_alph">Home</p>
+              </div>
+            </div>
+          </div>
+          <!-- search box  -->
+          <div class="vistaGallery_searchBox">
+            <!-- gallery  -->
+            <div class="vistaGallery BorderHover">
+              <!-- <li> -->
+              <div class="vistaGalleryflex">
+                <i class="fa-solid fa-file-image gallery"></i>
+                <p>Gallery</p>
+              </div>
+              <!-- </li> -->
+            </div>
+            <!-- search box input -->
+            <div class="vistaSearch_box">
+              <div class="vistaSearch_cont">
+                <!-- selecter -->
+                <div class="searchBox_Selector">
+                  <select
+                    name="all"
+                    id="imageTypeSelctor"
+                    class="vistaSearchBoxSelector"
+                  >
+                    <option value="All">All</option>
+                    <option value="P">Painting</option>
+                    <option value="Drawing">Drawing</option>
+                    <option value="Ai generated">Ai Generated</option>
+                    <option value="Craft">Craft</option>
+                    <option value="Nature">Nature</option>
+                    <option value="Nature">Mandelaa art</option>
+                    <option value="Mountain and River">
+                      Mountain and river
+                    </option>
+                  </select>
+                </div>
+                <!-- input -->
+                <div class="searchBox_Input">
+                  <input type=" text" placeholder=" Search ImageVista.in" />
+                </div>
+                <!-- searchIcon -->
+                <div class="searchBox_MagnifyingGlass">
+                  <i class="fa-solid fa-magnifying-glass searchIcon"></i>
+                </div>
+              </div>
+            </div>
+          </div>
+          <!-- contact and signup -->
+          <div class="vista_imageUplaod_aboutContact_loginSignup">
+            <!-- vistaImage download and upload  -->
+            <div class="vista_imageUpload_content BorderHover">
+              <div class="vista_imageUpload">
+                <li class="vistadownload">
+                  Download
+                  <div class="vistaupload">&Upload</div>
+                </li>
+              </div>
+            </div>
+
+            <!-- vistaSignup -->
+            <div class="vista_sign_acc BorderHover">
+              <div class="vista_login_signup">
+                <span class="vista_signIn"><b> Vista</b>,sign in </span>
+                <span class="vista_account">
+                  <b> Account & Lists </b><i class="fa-solid fa-caret-down"></i
+                ></span>
+              </div>
+            </div>
+
+            <!-- vistaAbout_&_contact -->
+            <div class="vistaAboutContact BorderHover">
+              <div class="vistaAboutContact_style">
+                <span class="vista_about">About us</span>
+                <span class="vista_contact">& Contact</span>
+              </div>
+            </div>
+          </div>
+
+          <!--  social media logo -->
+
+          <div class="vistaSocialMediaLogo logoBorderHover">
+            <div class="vistaSocial_media">
+              <div class="vistaSocialMedia_logo">
+                <a href="https://www.facebook.com"
+                  ><img
+                    src=" https://freepnglogo.com/images/all_img/1713419166FB_Logo_PNG.png"
+                    alt="fb"
+                    class="vistaLogo_link"
+                  />
+                </a>
+              </div>
+              <div class="vistaSocialMedia_logo">
+                <a href="https://www.whatsapp.com"
+                  ><img
+                    src=" https://static.vecteezy.com/system/resources/thumbnails/016/716/480/small/whatsapp-icon-free-png.png"
+                    alt="twitter"
+                    class="vistaLogo_link"
+                  />
+                </a>
+              </div>
+              <div class="vistaSocialMedia_logo">
+                <a href="https://www.instagram.com/"
+                  ><img
+                    src=" https://upload.wikimedia.org/wikipedia/commons/thumb/a/a5/Instagram_icon.png/2048px-Instagram_icon.png"
+                    alt="insta"
+                    class="vistaLogo_link"
+                  />
+                </a>
+              </div>
+              <div class="vistaSocialMedia_logo">
+                <a href=" https://www.linkedin.com"
+                  ><img
+                    src="  https://upload.wikimedia.org/wikipedia/commons/thumb/c/ca/LinkedIn_logo_initials.png/640px-LinkedIn_logo_initials.png"
+                    alt="linkedin"
+                    class="vistaLogo_link"
+                  />
+                </a>
+              </div>
+              <div class="vistaSocialMedia_logo">
+                <a href="https://www.twitter.com"
+                  ><img
+                    src="  https://www.iconpacks.net/icons/2/free-twitter-logo-icon-2429-thumb.png"
+                    alt="twitter"
+                    class="vistaLogo_link"
+                  />
+                </a>
+              </div>
+            </div>
+          </div>
+        </div>
+      </nav>
+      <!-- vistaHeader2 -->
+      <nav class="vistaHeaderNav2">
+        <ol class="vistaImage_Slider">
+          <!-- nav2 heading -->
+          <div class="vistaImageTextHeader">
+            <a href="#" target="blank"
+              ><h1 class="vistaImageTextHeader_style">
+                vista<b>Image.com</b>
+              </h1></a
+            >
+          </div>
+          <!-- nav2image -->
+          <li class="vistaImage_sliderContainer">
+            <div class="vistaImages_sliderContainer_img">
+              <div class="vistaImages_sliderContainer_imgContainer">
+                <a
+                  href="https://www.facebook.com"
+                  class="vistaImages_slider_img"
+                >
+                  <img
+                    src=" https://d3nn873nee648n.cloudfront.net/bannersImages/1723011716967item.jpg"
+                    alt="sliderimage"
+                    class="vistaSliderImg1"
+                /></a>
+              </div>
+            </div>
+          </li>
+        </ol>
+      </nav>
+    </header>
+    <!-- main part of webpage -->
+
+    <main>
+      <section class="vistaMainHeader1">
+        <div class="vistaMainHeader1_container">
+          <!-- container 1 -->
+          <div class="vistaMainHeader1_containerContaint">
+            <div class="vistaMainHeader1_ImageContainer">
+              <div class="vistaMainHeader1_ImageContainer_style">
+                <!-- image1 container header -->
+                <div class="vistaMainHeader1_ImageContainer_header">
+                  <span><h1>Learning & Earning</h1></span>
+                </div>
+                <!-- image1  image container  -->
+                <div class="vistaMainHeader1_ImageContainer_row1">
+                  <div class="vistaMainHeader1_ImageContainer_row1_style">
+                    <!-- image1_container row1 -->
+                    <div class="vistaMainHeader1_ImageContainer_row1_column1_1">
+                      <div
+                        class="vistaMainHeader1_ImageContainer_row1_column1_1_style"
+                      >
+                        <!-- image1_container row1_image1 -->
+                        <div
+                          class="vistaMainHeader1_ImageContainer_row1_1_image1"
+                        >
+                          <div
+                            class="vistaMainHeader1_ImageContainer_row1_1_image1_style"
+                          >
+                            <a
+                              href="https://accounts.google.com/v3/signin/identifier?authuser=0&continue=https%3A%2F%2Fphotos.google.com%2F&ec=GAlAHw&hl=en_GB&service=lh2&flowName=GlifWebSignIn&flowEntry=AddSession&dsh=S-1694449750%3A1719666394890543&ddm=0"
+                            >
+                              <div class="row1 image1_1"></div>
+                            </a>
+                          </div>
+                          <div class="row1_image1_footer">
+                            <span>Business & Startup</span>
+                          </div>
+                        </div>
+
+                        <!-- image1_container row1_image2 -->
+                        <div
+                          class="vistaMainHeader1_ImageContainer_row1_1_image1"
+                        >
+                          <div
+                            class="vistaMainHeader1_ImageContainer_row1_1_image1_style"
+                          >
+                            <a
+                              href="https://accounts.google.com/v3/signin/identifier?authuser=0&continue=https%3A%2F%2Fphotos.google.com%2F&ec=GAlAHw&hl=en_GB&service=lh2&flowName=GlifWebSignIn&flowEntry=AddSession&dsh=S-1694449750%3A1719666394890543&ddm=0"
+                            >
+                              <div class="row1 image1_2"></div>
+                            </a>
+                          </div>
+                          <div class="row1_image1_footer">
+                            <span>Nature & Valley</span>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                    <!-- image1_container row2 -->
+                    <div class="vistaMainHeader1_ImageContainer_row1_column1_1">
+                      <div
+                        class="vistaMainHeader1_ImageContainer_row1_column1_1_style"
+                      >
+                        <!-- image1_container row1_image1 -->
+                        <div
+                          class="vistaMainHeader1_ImageContainer_row1_1_image1"
+                        >
+                          <div
+                            class="vistaMainHeader1_ImageContainer_row1_1_image1_style"
+                          >
+                            <a
+                              href="https://accounts.google.com/v3/signin/identifier?authuser=0&continue=https%3A%2F%2Fphotos.google.com%2F&ec=GAlAHw&hl=en_GB&service=lh2&flowName=GlifWebSignIn&flowEntry=AddSession&dsh=S-1694449750%3A1719666394890543&ddm=0"
+                            >
+                              <div class="row1 image1_3"></div>
+                            </a>
+                          </div>
+                          <div class="row1_image1_footer">
+                            <span>Technology</span>
+                          </div>
+                        </div>
+
+                        <!-- image1_container row1_image2 -->
+                        <div
+                          class="vistaMainHeader1_ImageContainer_row1_1_image1"
+                        >
+                          <div
+                            class="vistaMainHeader1_ImageContainer_row1_1_image1_style"
+                          >
+                            <a
+                              href="https://accounts.google.com/v3/signin/identifier?authuser=0&continue=https%3A%2F%2Fphotos.google.com%2F&ec=GAlAHw&hl=en_GB&service=lh2&flowName=GlifWebSignIn&flowEntry=AddSession&dsh=S-1694449750%3A1719666394890543&ddm=0"
+                            >
+                              <div class="row1 image1_4"></div>
+                            </a>
+                          </div>
+                          <div class="row1_image1_footer">
+                            <span>School & Collage</span>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+
+                <!-- image1 container footer  -->
+                <div class="vistaMainHeader1_ImageContainer_SeeMore">
+                  <a href="#"><div>Explore more</div></a>
+                </div>
+              </div>
+            </div>
+          </div>
+          <!-- container 2 -->
+          <div class="vistaMainHeader1_containerContaint">
+            <div class="vistaMainHeader1_ImageContainer">
+              <div class="vistaMainHeader1_ImageContainer_style">
+                <!-- image1 container header -->
+                <div class="vistaMainHeader1_ImageContainer_header">
+                  <span><h1>Enjoyment</h1></span>
+                </div>
+                <!-- image1  image container  -->
+                <div class="vistaMainHeader1_ImageContainer_row1">
+                  <div class="vistaMainHeader1_ImageContainer_row1_style">
+                    <!-- image1_container row1 -->
+                    <div class="vistaMainHeader1_ImageContainer_row1_column1_1">
+                      <div
+                        class="vistaMainHeader1_ImageContainer_row1_column1_1_style"
+                      >
+                        <!-- image1_container row1_image1 -->
+                        <div
+                          class="vistaMainHeader1_ImageContainer_row1_1_image1"
+                        >
+                          <div
+                            class="vistaMainHeader1_ImageContainer_row1_1_image1_style"
+                          >
+                            <a
+                              href="https://accounts.google.com/v3/signin/identifier?authuser=0&continue=https%3A%2F%2Fphotos.google.com%2F&ec=GAlAHw&hl=en_GB&service=lh2&flowName=GlifWebSignIn&flowEntry=AddSession&dsh=S-1694449750%3A1719666394890543&ddm=0"
+                            >
+                              <div class="row1 image2_1"></div>
+                            </a>
+                          </div>
+                          <div class="row1_image1_footer">
+                            <span>wedding & engaggment</span>
+                          </div>
+                        </div>
+
+                        <!-- image1_container row1_image2 -->
+                        <div
+                          class="vistaMainHeader1_ImageContainer_row1_1_image1"
+                        >
+                          <div
+                            class="vistaMainHeader1_ImageContainer_row1_1_image1_style"
+                          >
+                            <a
+                              href="https://accounts.google.com/v3/signin/identifier?authuser=0&continue=https%3A%2F%2Fphotos.google.com%2F&ec=GAlAHw&hl=en_GB&service=lh2&flowName=GlifWebSignIn&flowEntry=AddSession&dsh=S-1694449750%3A1719666394890543&ddm=0"
+                            >
+                              <div class="row1 image2_2"></div>
+                            </a>
+                          </div>
+                          <div class="row1_image1_footer">
+                            <span>Occassions</span>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                    <!-- image1_container row2 -->
+                    <div class="vistaMainHeader1_ImageContainer_row1_column1_1">
+                      <div
+                        class="vistaMainHeader1_ImageContainer_row1_column1_1_style"
+                      >
+                        <!-- image1_container row1_image1 -->
+                        <div
+                          class="vistaMainHeader1_ImageContainer_row1_1_image1"
+                        >
+                          <div
+                            class="vistaMainHeader1_ImageContainer_row1_1_image1_style"
+                          >
+                            <a
+                              href="https://accounts.google.com/v3/signin/identifier?authuser=0&continue=https%3A%2F%2Fphotos.google.com%2F&ec=GAlAHw&hl=en_GB&service=lh2&flowName=GlifWebSignIn&flowEntry=AddSession&dsh=S-1694449750%3A1719666394890543&ddm=0"
+                            >
+                              <div class="row1 image2_3"></div>
+                            </a>
+                          </div>
+                          <div class="row1_image1_footer">
+                            <span>Festivals</span>
+                          </div>
+                        </div>
+
+                        <!-- image1_container row1_image2 -->
+                        <div
+                          class="vistaMainHeader1_ImageContainer_row1_1_image1"
+                        >
+                          <div
+                            class="vistaMainHeader1_ImageContainer_row1_1_image1_style"
+                          >
+                            <a
+                              href="https://accounts.google.com/v3/signin/identifier?authuser=0&continue=https%3A%2F%2Fphotos.google.com%2F&ec=GAlAHw&hl=en_GB&service=lh2&flowName=GlifWebSignIn&flowEntry=AddSession&dsh=S-1694449750%3A1719666394890543&ddm=0"
+                            >
+                              <div class="row1 image2_4"></div>
+                            </a>
+                          </div>
+                          <div class="row1_image1_footer">
+                            <span>Fashion & Stylish</span>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+
+                <!-- image1 container footer  -->
+                <div class="vistaMainHeader1_ImageContainer_SeeMore">
+                  <a href="#"><div>Explore more</div></a>
+                </div>
+              </div>
+            </div>
+          </div>
+          <!-- container 3 -->
+          <div class="vistaMainHeader1_containerContaint">
+            <div class="vistaMainHeader1_ImageContainer">
+              <div class="vistaMainHeader1_ImageContainer_style">
+                <!-- image1 container header -->
+                <div class="vistaMainHeader1_ImageContainer_header">
+                  <span><h1>Health & Wealth</h1></span>
+                </div>
+                <!-- image1  image container  -->
+                <div class="vistaMainHeader1_ImageContainer_row1">
+                  <div class="vistaMainHeader1_ImageContainer_row1_style">
+                    <!-- image1_container row1 -->
+                    <div class="vistaMainHeader1_ImageContainer_row1_column1_1">
+                      <div
+                        class="vistaMainHeader1_ImageContainer_row1_column1_1_style"
+                      >
+                        <!-- image1_container row1_image1 -->
+                        <div
+                          class="vistaMainHeader1_ImageContainer_row1_1_image1"
+                        >
+                          <div
+                            class="vistaMainHeader1_ImageContainer_row1_1_image1_style"
+                          >
+                            <a
+                              href="https://accounts.google.com/v3/signin/identifier?authuser=0&continue=https%3A%2F%2Fphotos.google.com%2F&ec=GAlAHw&hl=en_GB&service=lh2&flowName=GlifWebSignIn&flowEntry=AddSession&dsh=S-1694449750%3A1719666394890543&ddm=0"
+                            >
+                              <div class="row1 image3_1"></div>
+                            </a>
+                          </div>
+                          <div class="row1_image1_footer">
+                            <span>Family</span>
+                          </div>
+                        </div>
+
+                        <!-- image1_container row1_image2 -->
+                        <div
+                          class="vistaMainHeader1_ImageContainer_row1_1_image1"
+                        >
+                          <div
+                            class="vistaMainHeader1_ImageContainer_row1_1_image1_style"
+                          >
+                            <a
+                              href="https://accounts.google.com/v3/signin/identifier?authuser=0&continue=https%3A%2F%2Fphotos.google.com%2F&ec=GAlAHw&hl=en_GB&service=lh2&flowName=GlifWebSignIn&flowEntry=AddSession&dsh=S-1694449750%3A1719666394890543&ddm=0"
+                            >
+                              <div class="row1 image3_2"></div>
+                            </a>
+                          </div>
+                          <div class="row1_image1_footer">
+                            <span>Fitness </span>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                    <!-- image1_container row2 -->
+                    <div class="vistaMainHeader1_ImageContainer_row1_column1_1">
+                      <div
+                        class="vistaMainHeader1_ImageContainer_row1_column1_1_style"
+                      >
+                        <!-- image1_container row1_image1 -->
+                        <div
+                          class="vistaMainHeader1_ImageContainer_row1_1_image1"
+                        >
+                          <div
+                            class="vistaMainHeader1_ImageContainer_row1_1_image1_style"
+                          >
+                            <a
+                              href="https://accounts.google.com/v3/signin/identifier?authuser=0&continue=https%3A%2F%2Fphotos.google.com%2F&ec=GAlAHw&hl=en_GB&service=lh2&flowName=GlifWebSignIn&flowEntry=AddSession&dsh=S-1694449750%3A1719666394890543&ddm=0"
+                            >
+                              <div class="row1 image3_3"></div>
+                            </a>
+                          </div>
+                          <div class="row1_image1_footer">
+                            <span>Cook</span>
+                          </div>
+                        </div>
+
+                        <!-- image1_container row1_image2 -->
+                        <div
+                          class="vistaMainHeader1_ImageContainer_row1_1_image1"
+                        >
+                          <div
+                            class="vistaMainHeader1_ImageContainer_row1_1_image1_style"
+                          >
+                            <a
+                              href="https://accounts.google.com/v3/signin/identifier?authuser=0&continue=https%3A%2F%2Fphotos.google.com%2F&ec=GAlAHw&hl=en_GB&service=lh2&flowName=GlifWebSignIn&flowEntry=AddSession&dsh=S-1694449750%3A1719666394890543&ddm=0"
+                            >
+                              <div class="row1 image3_4"></div>
+                            </a>
+                          </div>
+                          <div class="row1_image1_footer">
+                            <span>Health & Medical</span>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+
+                <!-- image1 container footer  -->
+                <div class="vistaMainHeader1_ImageContainer_SeeMore">
+                  <a href="#"><div>Explore more</div></a>
+                </div>
+              </div>
+            </div>
+          </div>
+          <!-- container 4 -->
+          <div class="vistaMainHeader1_containerContaint">
+            <div class="vistaMainHeader1_ImageContainer">
+              <div
+                class="vistaMainHeader1_ImageContainer_style"
+                style="background-color: transparent; box-shadow: none"
+              >
+                <div class="container4">
+                  <div class="container_4_div1">
+                    <div class="container_4_div1_style">
+                      <div class="container_4_div1_heading_containt">
+                        <span class="container_4_div1_heading">
+                          <h1>Sign in for your best experience</h1></span
+                        >
+                      </div>
+
+                      <div class="container_4_div1_Button_container">
+                        <button class="container_4_div1_Button">
+                          Sign in securely
+                        </button>
+                      </div>
+                    </div>
+                  </div>
+                  <div class="container_4_div2">
+                    <div class="container_4_div1_style">
+                      <iframe
+                        src=" https://www.imagesbazaar.com/"
+                        frameborder="0"
+                        height="90%"
+                        width="90%"
+                      ></iframe>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <!-- section2  -->
+      <section class="vistaMainHeader2">
+        <div class="vistaMainHeader2_image">
+          <div class="vistaMainHeader2_imageContainer_1">
+            <!-- column1 -->
+            <div class="vistaMainHeader2_imageContainer_1_column">
+              <img
+                src="https://plus.unsplash.com/premium_photo-1664474619075-644dd191935f?q=80&w=2938&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D"
+                alt=""
+                style="width: 100%"
+              />
+
+              <img
+                src="https://images.unsplash.com/photo-1662348318167-d521a9524cce?q=80&w=2812&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D"
+                alt=""
+                style="width: 100%"
+              />
+              <img
+                src=" https://images.pexels.com/photos/268533/pexels-photo-268533.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2"
+                alt=""
+                style="width: 100%"
+              />
+              <img
+                src="https://images.pexels.com/photos/2104252/pexels-photo-2104252.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2"
+                alt=""
+                style="width: 100%"
+              />
+              <img
+                src="https://media.istockphoto.com/id/1135171564/vector/ai-artificial-intelligence-concept-ai-digital-brain-abstract-digital-human-face-human-head.jpg?s=612x612&w=0&k=20&c=9MUOfIWchtu6qRdVM4UiA_YkT1qs5gQ5oGRFrLnVhy8="
+                alt=""
+                style="width: 100%"
+              />
+              <img
+                src=" https://d3nn873nee648n.cloudfront.net/900x600/20751/300-SM1073057.jpg"
+                alt=""
+                style="width: 100%"
+              />
+            </div>
+            <!-- column 2 -->
+            <div class="vistaMainHeader2_imageContainer_1_column">
+              <img
+                src="https://d3nn873nee648n.cloudfront.net/900x600/3164/20-SM106637.jpg"
+                alt=""
+                style="width: 100%"
+              />
+
+              <img src="collage.jpg" alt="kasol" style="width: 100%" />
+
+              <img
+                src=" https://d3nn873nee648n.cloudfront.net/900x600/20729/300-SM1072187.jpg"
+                alt=""
+                style="width: 100%"
+              />
+
+              <img
+                src="https://d3nn873nee648n.cloudfront.net/900x600/20835/300-SM1084462.jpg "
+                alt=""
+                style="width: 100%"
+              />
+              <img
+                src="https://th.bing.com/th/id/OIP._p3D_j1joYVRUgWgI0bYQwHaJg?w=196&h=252&c=7&r=0&o=5&dpr=2&pid=1.7"
+                alt=""
+                style="width: 100%"
+              />
+            </div>
+            <!-- column 3 -->
+            <div class="vistaMainHeader2_imageContainer_1_column">
+              <img
+                src="https://d3nn873nee648n.cloudfront.net/900x600/15972/220-SM665162.jpg"
+                alt=""
+                style="width: 100%"
+              />
+              <img
+                src="https://d3nn873nee648n.cloudfront.net/900x600/100131/300-ZM1027075.jpg"
+                alt=""
+                style="width: 100%"
+              />
+              <img
+                src="https://cdn.pixabay.com/photo/2024/03/26/15/12/sunset-8657085_1280.jpg"
+                alt=""
+                style="width: 100%"
+              />
+              <img
+                src="https://images.pexels.com/photos/919278/pexels-photo-919278.jpeg?auto=compress&cs=tinysrgb&w=800"
+                alt=""
+                style="width: 100%"
+              />
+              <img
+                src="https://plus.unsplash.com/premium_photo-1680366287071-f8ff28b9db13?w=800&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1yZWxhdGVkfDE2fHx8ZW58MHx8fHx8"
+                alt=""
+                style="width: 100%"
+              />
+            </div>
+            <!-- column 4 -->
+            <div class="vistaMainHeader2_imageContainer_1_column">
+              <img
+                src="https://cdn.pixabay.com/photo/2024/03/04/16/38/cat-8612685_1280.jpg"
+                alt=""
+                style="width: 100%"
+              />
+
+              <img
+                src="https://cdn.pixabay.com/photo/2020/05/24/10/36/child-5213589_1280.jpg"
+                alt=""
+                style="width: 100%"
+              />
+              <img
+                src="https://cdn.pixabay.com/photo/2023/06/22/16/34/campfire-8081877_1280.jpg"
+                alt=""
+                style="width: 100%"
+              />
+              <img
+                src=" https://d3nn873nee648n.cloudfront.net/900x600/11927/17-CG364951.jpg"
+                alt=""
+                style="width: 100%"
+              />
+              <img
+                src=" https://th.bing.com/th/id/OIP.nPpH6nOKkoOHvlys9Km9rgHaJ4?pid=ImgDet&w=178&h=238&c=7&dpr=2"
+                alt=""
+                style="width: 100%"
+              />
+            </div>
+          </div>
+        </div>
+      </section>
+      <!-- section3 -->
+      <section class="vistaMainHeader3">
+        <div class="vistaMainHeader3_container">
+          <div class="vistaMainHeader3_mostPopularSearch">
+            Frequently Searched
+          </div>
+          <div class="vistaMainHeader3_popularSearch">
+            <button class="vistaMainHeader3_popularSearch_btn">
+              <div>Education</div>
+            </button>
+            <button class="vistaMainHeader3_popularSearch_btn">
+              <div>Festival</div>
+            </button>
+            <button class="vistaMainHeader3_popularSearch_btn">
+              <div>Games</div>
+            </button>
+            <button class="vistaMainHeader3_popularSearch_btn">
+              <div>Money</div>
+            </button>
+            <button class="vistaMainHeader3_popularSearch_btn">
+              <div>Relationship</div>
+            </button>
+            <button class="vistaMainHeader3_popularSearch_btn">
+              <div>Law</div>
+            </button>
+            <button class="vistaMainHeader3_popularSearch_btn">
+              <div>Company</div>
+            </button>
+            <button class="vistaMainHeader3_popularSearch_btn">
+              <div>Nature</div>
+            </button>
+            <button class="vistaMainHeader3_popularSearch_btn">
+              <div>Electronic</div>
+            </button>
+            <button class="vistaMainHeader3_popularSearch_btn">
+              <div>Family</div>
+            </button>
+            <button class="vistaMainHeader3_popularSearch_btn">
+              <div>Occassion</div>
+            </button>
+            <button class="vistaMainHeader3_popularSearch_btn">
+              <div>Astronomy</div>
+            </button>
+            <button class="vistaMainHeader3_popularSearch_btn">
+              <div>Couples</div>
+            </button>
+            <button class="vistaMainHeader3_popularSearch_btn">
+              <div>Student</div>
+            </button>
+            <button class="vistaMainHeader3_popularSearch_btn">
+              <div>Food</div>
+            </button>
+            <button class="vistaMainHeader3_popularSearch_btn">
+              <div>Wedding</div>
+            </button>
+            <button class="vistaMainHeader3_popularSearch_btn">
+              <div>Books</div>
+            </button>
+            <button class="vistaMainHeader3_popularSearch_btn">
+              <div>Rainfall</div>
+            </button>
+            <button class="vistaMainHeader3_popularSearch_btn">
+              <div>Farmer</div>
+            </button>
+            <button class="vistaMainHeader3_popularSearch_btn">
+              <div>Business</div>
+            </button>
+          </div>
+        </div>
+      </section>
+    </main>
+
+    <!-- vistaImage footer  -->
+    <footer>
+      <div class="vistaPage_footer">
+        <!-- footer navbar1 -->
+        <div class="vistFooterNav1">
+          <a href="#top" class="vistFooterMoveOntouch">Back to Top</a>
+        </div>
+
+        <!-- footer navbar2 -->
+        <div class="vistFooterNav2">
+          <!-- navbar2 colomn1 -->
+          <div class="vistFooterContact_detail">
+            <div class="vistFooterContact_detailContact">
+              <!-- email -->
+              <div class="vistFooterContact_detailContact_logo_textLink">
+                <a
+                  class="vistFooterContact_detailContact_Icon"
+                  href="mailto:pawanku28022004@gmail.com"
+                >
+                  <i class="fa-solid fa-envelope"></i>
+                </a>
+                <div class="vistFooterContact_detailContact_TextContainer">
+                  <a
+                    href="mailto:pawanku28022004@gmail.com"
+                    class="vistFooterContact_detailContact_Text"
+                    style="color: #cacaca"
+                  >
+                    pawanku28022004@gamil.com
+                  </a>
+                </div>
+              </div>
+
+              <!-- call log -->
+              <div class="vistFooterContact_detailContact_logo_textLink">
+                <a
+                  class="vistFooterContact_detailContact_Icon"
+                  href="tel:9793194870"
+                >
+                  <i class="fa-solid fa-phone-flip fa-rotate-180"></i>
+                </a>
+                <div class="vistFooterContact_detailContact_TextContainer">
+                  <a
+                    href="tel:9793194870"
+                    class="vistFooterContact_detailContact_Text"
+                    ><b>Toll free number:</b> 9793-19-4870</a
+                  >
+                </div>
+              </div>
+              <!-- whatsapp -->
+              <div class="vistFooterContact_detailContact_logo_textLink">
+                <a
+                  class="vistFooterContact_detailContact_Icon"
+                  href="https://api.whatsapp.com/send?phone=+919793194870&text=Hello,This is vistaImag  "
+                >
+                  <i class="fa-brands fa-whatsapp"></i>
+                </a>
+                <div class="vistFooterContact_detailContact_TextContainer">
+                  <a
+                    href="https://api.whatsapp.com/send?phone=+919793194870&text=Hello,This is vistaImage  "
+                    class="vistFooterContact_detailContact_Text"
+                  >
+                    <b>Whatsapp Us:</b> +91-9793194870
+                  </a>
+                </div>
+              </div>
+
+              <!-- social media link -->
+              <div class="vistaFooterNav2_Logo">
+                <div class="vistaFooterLogo_Text">Follow Us</div>
+                <div class="vistaFooter_logo_container">
+                  <a
+                    href="https://www.facebook.com/profile.php?id=100059165230378"
+                    class="footerNav_socialMediaLogo"
+                  >
+                    <div class="footerNav_socialMediaLogo_Icon">
+                      <i class="fa-brands fa-square-facebook"></i></div
+                  ></a>
+                  <!-- linkedin -->
+                  <a href=" https://www.linkedin.com">
+                    <div class="footerNav_socialMediaLogo_Icon">
+                      <i class="fa-brands fa-linkedin"></i></div
+                  ></a>
+                  <!-- twitter -->
+                  <a href=" https://www.twitter.com">
+                    <div class="footerNav_socialMediaLogo_Icon">
+                      <i
+                        class="fa-brands fa-square-twitter borderRadius"
+                      ></i></div
+                  ></a>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <!-- navbar2 column2 -->
+          <div class="vistFooterAboutVista_detail">
+            <div class="vistaFooterAbout_container">
+              <!-- company info -->
+              <div class="vistaFooterAbout_CompanyMoneyHelp">
+                <div class="vistaFooterAbout_CompanyMoneyHelpInfo">
+                  Company Info
+                </div>
+                <div class="vistaFooterAbout_CompanyMoneyHelp_container">
+                  <div class="text_hover">Home</div>
+                  <div class="text_hover">Aboout Us</div>
+                  <div class="text_hover">Community</div>
+                  <div class="text_hover">Image Research</div>
+                </div>
+              </div>
+
+              <!-- make money with us -->
+              <div class="vistaFooterAbout_CompanyMoneyHelp">
+                <div class="vistaFooterAbout_CompanyMoneyHelpInfo">
+                  Make Money With Us
+                </div>
+                <div class="vistaFooterAbout_CompanyMoneyHelp_container">
+                  <div class="text_hover">Sell on VistaImage</div>
+                  <div class="text_hover">Discount & Pricing</div>
+                  <div class="text_hover">Become an Affiliate</div>
+                  <div class="text_hover">Advertise Your Image</div>
+                </div>
+              </div>
+              <!-- need help -->
+              <div class="vistaFooterAbout_CompanyMoneyHelp">
+                <div class="vistaFooterAbout_CompanyMoneyHelpInfo">
+                  Need Help
+                </div>
+                <div class="vistaFooterAbout_CompanyMoneyHelp_container">
+                  <div class="text_hover">Contact Us</div>
+                  <div class="text_hover">Your Account</div>
+                  <div class="text_hover">100% Buy Protection</div>
+                  <div class="text_hover">FAQ</div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <!-- gap between nav2 and nav3 -->
+        <div class="vistaFooterNavGap2_3"></div>
+
+        <!-- footer navbar3 -->
+        <div class="vistaFooterNav3">
+          <div class="vistaFooterNav3_container">
+            <!-- img -->
+            <div class="vistaFooterNav3_container_img">
+              <img
+                src="logo.png"
+                alt="vistaLogo"
+                class="vistaFooterNav3_container_img_link"
+              />
+            </div>
+            <!--  selector and botton -->
+            <div class="vistaFooterNav3_container_button">
+              <div class="vistaFooterNav3_container_buttonContainer">
+                <!-- selector -->
+                <div class="vistaFooterNav3_container_buttonContainer_style">
+                  <i class="fa-solid fa-globe"></i>
+                  <select
+                    name=""
+                    id=""
+                    class="vistaFooterNav3_container_buttonContainer_Icon_Languae"
+                    style="border: none; margin-left: 10px"
+                  >
+                    <i class="fa-regular fa-globe"></i>
+                    <option value="EN">English</option>
+                    <option value="FR">Franchise</option>
+                    <option value="Chinees">Chinees</option>
+                    <option value="japanees">Japanees</option>
+                  </select>
+                </div>
+                <!-- button -->
+                <button
+                  class="vistaFooterNav3_container_buttonContainer_Icon_Languae"
+                  style="height: 43px"
+                >
+                  India
+                </button>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <!-- footer navbar4 -->
+        <div class="vistaFooterNav4">
+          <div class="vistaNav4_privacyPolice_payment">
+            <div class="vistaNav4_privacyPolice_payment_container">
+              <!-- vistaNav4 colomn1 -->
+              <ul class="vistaNav4_PrivacyPolicy">
+                <!-- condition -->
+                <li class="vistaNav4_PrivacyPolicy_container">
+                  <a
+                    href="https://www.facebook.com/photo/?fbid=116513190330855&set=pob.100059165230378"
+                    class="vistaNav4_PrivacyPolicy_style"
+                    >Conditions of Use & Sale</a
+                  >
+                </li>
+                <!-- privacy notice -->
+                <li class="vistaNav4_PrivacyPolicy_container">
+                  <a
+                    href="https://www.facebook.com/photo/?fbid=116513190330855&set=pob.100059165230378"
+                    class="vistaNav4_PrivacyPolicy_style"
+                  >
+                    Privacy Notice</a
+                  >
+                </li>
+                <!-- FAQ -->
+                <li class="vistaNav3_PrivacyPolicy_container">
+                  <a
+                    href="https://www.facebook.com/photo/?fbid=116513190330855&set=pob.100059165230378"
+                    class="vistaNav4_PrivacyPolicy_style"
+                    >FAQ</a
+                  >
+                </li>
+              </ul>
+              <!-- vistaNav4 colomn2 -->
+              <div class="vistaNav4_PrivacyPolicy_payment">
+                <img
+                  src="https://static-assets-web.flixcart.com/batman-returns/batman-returns/p/images/payment-method-c454fb.svg"
+                  alt="payment method"
+                  class="vistaNav3_PrivacyPolicy_paymentMethod"
+                />
+              </div>
+            </div>
+          </div>
+
+          <!-- nav4 copyright -->
+          <span class="vistaNav4_Copyright"
+            >©2024-2024. https://vistaImage.com .All right reserved.
+          </span>
+        </div>
+      </div>
+    </footer>
+  </body>
+</html>
